@@ -8,7 +8,7 @@ function gamestateend() {
         zombiegroup.destroyEach();
         if (mousePressedOver(restart)) {
             restart.play();
-            setTimeout(() => { document.location.reload() }, 2000);
+            setTimeout(() => { document.location.reload(false) }, 2000);
         }
     }
 }
