@@ -9,7 +9,7 @@ function coinSpawn() {
     if (coin) {
         if (player.isTouching(coin)) {
             coin.destroy();
-            health += 20;
+            health += 80;
             if (health > 200) {
                 health = 200;
             }
